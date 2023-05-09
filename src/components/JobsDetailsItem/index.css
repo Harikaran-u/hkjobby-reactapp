@@ -1,0 +1,241 @@
+body {
+  font-family: Roboto;
+}
+
+.job-id-bg-cont {
+  background-color: #000000;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+.job-item-cont {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #2a2a2a;
+  margin: 20px;
+}
+
+.job-id-retry-btn {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  height: 50px;
+  width: 120px;
+  border: 0px solid;
+  border-radius: 4px;
+  background-color: #4f46e5;
+  outline: none;
+  cursor: pointer;
+}
+.job-id-failure-img {
+  width: 400px;
+}
+.failure-id-head-job {
+  font-size: 28px;
+  color: #ffffff;
+}
+.failure-id-description-job {
+  font-size: 14px;
+  color: #ffffff;
+}
+.logo-top-cont {
+  display: flex;
+  align-items: center;
+}
+.job-company-logo {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+.title-rating-cont-job-id {
+  padding: 10px;
+}
+.job-id-title {
+  font-size: 18px;
+  color: #ffffff;
+}
+.star-cont {
+  display: flex;
+  align-items: center;
+}
+.id-star {
+  color: rgb(241, 255, 46);
+  height: 21px;
+  width: 21px;
+  margin-right: 10px;
+}
+.ratings-des {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.full-details-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.location-icons-cont {
+  display: flex;
+  align-items: center;
+}
+.id-icon {
+  color: #ffffff;
+  height: 21px;
+  width: 21px;
+  margin-right: 10px;
+}
+.job-id-location {
+  font-size: 14px;
+  color: #ffffff;
+  margin-right: 20px;
+}
+.job-id-emp-type {
+  font-size: 14px;
+  color: #ffffff;
+}
+.package-job-id {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.description-visit-id {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.id-description {
+  font-size: 28px;
+  color: #ffffff;
+}
+.web-link {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 600;
+  color: #4e68cf;
+  margin-right: 10px;
+}
+.visit-link-cont {
+  display: flex;
+  align-items: center;
+}
+.job-id-description {
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.id-skills {
+  font-size: 25px;
+  color: #ffffff;
+}
+.skills-list-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.skill-list {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+  margin-bottom: 40px;
+}
+.skill-img {
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+}
+.skill-name {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.life-at-company-cont {
+  display: flex;
+}
+.life-description {
+  font-size: 18px;
+  color: #ffffff;
+  margin-right: 60px;
+}
+.life-company-img {
+  max-width: 500px;
+  margin-right: 20px;
+}
+
+.similar-jobs-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.jobs-id-fail-cont {
+  width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  .job-id-fail-cont {
+    width: 420px;
+  }
+  .job-id-failure-img {
+    width: 180px;
+  }
+  .failure-id-head-job {
+    font-size: 16px;
+  }
+  .failure-id-description-job {
+    font-size: 12px;
+  }
+  .job-id-retry-btn {
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .job-id-title {
+    font-size: 16px;
+  }
+  .job-id-location {
+    font-size: 10px;
+  }
+  .job-id-emp-type {
+    font-size: 10px;
+  }
+  .package-job-id {
+    font-size: 12px;
+  }
+  .id-description {
+    font-size: 13px;
+  }
+  .web-link {
+    font-size: 12px;
+  }
+  .life-description {
+    font-size: 12px;
+  }
+  .life-company-img {
+    width: 180px;
+  }
+  .job-id-description {
+    font-size: 12px;
+  }
+  .id-skills {
+    font-size: 13px;
+  }
+  .skill-img {
+    height: 36px;
+    width: 36px;
+  }
+  .skill-list {
+    margin-right: 20px;
+  }
+  .skill-name {
+    font-size: 12px;
+  }
+  .life-at-company-cont {
+    display: flex;
+    flex-direction: column;
+  }
+}

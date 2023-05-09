@@ -1,0 +1,103 @@
+body {
+  font-family: Roboto;
+}
+.similar-list {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgb(62, 59, 59);
+  max-width: 380px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.similar-logo {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+.similar-top-cont {
+  display: flex;
+  align-items: center;
+}
+.similar-head {
+  font-size: 16px;
+  color: #ffffff;
+}
+.similar-rating-star-cont {
+  display: flex;
+  align-items: center;
+}
+.star-icon {
+  height: 21px;
+  width: 21px;
+  color: rgb(237, 237, 31);
+  margin-right: 10px;
+}
+
+.similar-rating {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.similar-des-head {
+  font-size: 18px;
+  color: #ffffff;
+}
+.similar-description {
+  font-size: 13px;
+  color: #ffffff;
+}
+.similar-bottom-icon-cont {
+  display: flex;
+  align-items: center;
+}
+.similar-icon {
+  height: 21px;
+  width: 21px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.similar-location {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-right: 20px;
+}
+.similar-emp-type {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 576px) {
+  .similar-logo {
+    height: 42px;
+    width: 42px;
+  }
+  .similar-head {
+    font-size: 13px;
+  }
+  .similar-rating {
+    font-size: 10px;
+  }
+  .similar-des-head {
+    font-size: 13px;
+  }
+  .similar-location {
+    font-size: 10px;
+  }
+  .similar-emp-type {
+    font-size: 10px;
+  }
+  .similar-icon {
+    height: 15px;
+    width: 15px;
+  }
+  .similar-description {
+    font-size: 10px;
+  }
+  .star-icon {
+    height: 14px;
+    width: 14px;
+  }
+}
